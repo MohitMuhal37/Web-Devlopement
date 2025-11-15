@@ -1,13 +1,13 @@
-let currentResult = 0;
+let defaultResult = 0;
 
-currentResult = currentResult + 10 * 5;
+currentResult = defaultResult;
 
-function addNumbers(num1, num2){
-        return num1 + num2;
+function addNumbers(){
+        currentResult = currentResult + parseInt(userInput.value);
+        outputResult(currentResult, '');
 }
 
-alert("The result is = "+addNumbers(4, 6))
+// currentResult = addNumbers(8, 7);
 
-outputResult(currentResult, '');
-
+addBtn.addEventlistener('click', addNumbers);
 
