@@ -36,4 +36,7 @@ function divide(){
 // currentResult = addNumbers(8, 7);
 
 addBtn.addEventListener('click', addNumbers)
+subtractBtn.addEventListener('click', subtract)
+multiplyBtn.addEventListener('click', multiply)
+divideBtn.addEventListener('click', divide)
 
